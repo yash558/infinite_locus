@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { logo } from "../../assets";
+import { logo } from "../assets";
 
 import { Link, useLocation } from "react-router-dom";
 import scrollToTop from "./scrollToTop";
@@ -13,12 +13,7 @@ const Navbar = () => {
     },
     {
       name: "Our Services",
-      link: "/services",
-      subroutes: [
-        { name: "Service 1", link: "/services/service1" },
-        { name: "Service 2", link: "/services/service2" },
-        { name: "Service 3", link: "/services/service3" },
-      ],
+      link: "/services",     
     },
     {
       name: "About Us",
